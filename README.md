@@ -2,6 +2,7 @@
 Codes of A novel therapeutic peptide prediction method using physicochemical property encoding and feature representation learning
 
 Before you start
+=========
 
 Make sure JAVA, C++ complier have been properly installed on your machine to avoid the disappointment of getting dependences installation error.
 
@@ -9,15 +10,27 @@ This work is based on Anaconda 5.3.1, and therefore, we recommend users to choos
 The enviroment where PPTPP was built was exported as the file named PPTPPenvironment.yaml in the Zip file, please make sure you have the same environment to make everything works.
 
 How to use
+==========
 
 First, place your raw data, which should be in FASTA format with class lable (Please see the raw data already placed in the folder) and stored in TXT file, in the folder of RAW.
 
 Then, 
-1.switch to the path where you store the code using command: cd X:\XX\XXXX
-2.Run the code using command: %run Training -i XXP, where XXP is the name of your data. For example, if you stored your AAP data in the file of AAP.txt, please use the command  %run Training.py -i AAP
+-----
+1.switch to the path where you store the code using command: 
+cd X:\XX\XXXX
+
+2.Run the code using command:
+
+%run Training -i XXP
+
+where XXP is the name of your data. For example, if you stored your AAP data in the file of AAP.txt, please use the command  %run Training.py -i AAP
+
 During this process, all 531 meta-predictors would be established and the all the relevant ARFF, details produced by WEKA will be stored in the folder of PPTPP\Results\XXP\Data\Level1. Metrics of all meta-predictors can be found in the folder PPTPP\Results\AAP\Metrics\531 Metrics.
 
-3.After Training.py finished its work, pleasr run Ranking.py by using: %run Ranking.py
+3.After Training.py finished its work, pleasr run Ranking.py by using:
+
+%run Ranking.py
+
 MRMD2.0 will be started to perform the ranking task and the ranking result would be stored in the folder of PPTPP\Results\AAP\Metrics\Learning as a .log file.
 
 4.When Ranking.py done its job, PLEASE RESTART THE KERNEL AND CLEAR THE CONSOLE, to avoid the error of starting jvm.
