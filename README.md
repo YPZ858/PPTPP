@@ -11,6 +11,8 @@ Your javac need to support the version 6 therefore we recommend to use JDK 11 ra
 This work is based on Anaconda 5.3.1, and therefore, we recommend users to choose Anaconda for running relevant Python codes.
 The enviroment where PPTPP was built was exported as the file named PPTPPenvironment.yaml in the Zip file, please make sure you have the same environment to make everything works.
 
+You could open the .yaml file with notepad to check if all the required dependencies have been installed properly.
+
 How to use
 ==========
 
