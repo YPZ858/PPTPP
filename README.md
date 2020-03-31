@@ -31,12 +31,15 @@ cd X:\XX\XXXX
 2.Run the Training code:
 
 When using class feature (PPTPP_cls):
+
 python Training_cls.py -i XXP
 
 When using probabilistic feature (PPTPP_prb):
+
 python Training_prb.py -i XXP
 
 When using class feature (PPTPP_fus):
+
 python Training_fus.py -i XXP
 
 where XXP is the name of your data. For example, if you stored your AAP data in the file of AAP.txt, please use the command  python Training_fus.py -i XXP when fusion feature mode was selected
@@ -52,12 +55,15 @@ MRMD2.0 will be started to perform the ranking task and the ranking result would
 4. Run the learning code:
 
 When using class feature (PPTPP_cls):
+
 python Learning_cls.py -i XXP
 
 When using probabilistic feature (PPTPP_prb):
+
 python Learning_prb.py -i XXP
 
 When using class feature (PPTPP_fus):
+
 python Learning_fus.py -i XXP
 
 After this process, you may see the AUC on the screen and relevant data has been stored. All major metrics can be seen the Metrics folder.
@@ -66,12 +72,15 @@ After this process, you may see the AUC on the screen and relevant data has been
 Make sure you labled the data, even if its fake, as you can track the prediction of individual samples later. When everything is ready, run:
 
 When using class feature (PPTPP_cls):
+
 python Testing_cls.py -i XXP
 
 When using probabilistic feature (PPTPP_prb):
+
 python Testing_prb.py -i XXP
 
 When using class feature (PPTPP_fus):
+
 python Testing_fus.py -i XXP
 
 All major metrics and individual prediction results can be found in the folder of Metrics.
