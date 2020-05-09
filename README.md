@@ -118,4 +118,5 @@ python Testing_fus.py -i XXPT
 All major metrics and individual prediction results can be found in the folder of Metrics.
 
 if this code could help your research, please cite:
+
 PPTPP: A novel therapeutic peptide prediction method using physicochemical property encoding and adaptive feature representation learning. Bioinformatics. Doi: 10.1093/bioinformatics/btaa275 
