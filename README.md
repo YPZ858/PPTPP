@@ -14,20 +14,35 @@ The enviroment where PPTPP was built was exported as the file named PPTPPenviron
 We've noticed that in some cases environment may not be created properly even if the yaml was imported, you could open the .yaml file with notepad to check if all the required dependencies have been installed properly. Please make sure the following core dependences have been installed properly:
 
 numpy=1.17.4=py36h4320e6b_0
+
 matplotlib=3.1.1=py36hc8f65d3_0
+
 xlrd=1.2.0=py36_0
+
 xlwt=1.3.0=py36h1a4751e_0
+
 pandas=0.25.3=py36ha925a31_0
+
 python-weka-wrapper3==0.1.10
+
 scipy=1.3.1=py36h29ff71c_0
+
 openpyxl=3.0.1=py_0
+
 liac-arff==2.4.0
+
 cython=0.29.14=py36ha925a31_0
+
 setuptools=42.0.2=py36_0
+
 psutil=5.6.7=py36he774522_0
+
 minepy==1.2.4
+
 python-graph-core==1.8.2
+
 scikit-learn=0.21.3=py36h6288b17_0
+
 pyyaml=5.1.2=py36he774522_0
 
 How to use
